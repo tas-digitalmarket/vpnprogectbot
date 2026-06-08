@@ -1,0 +1,10 @@
+.env
+tasks.json
+bot.log
+bot.err.log
+bot.pid
+node_modules/
+.runtime/
+.venv/
+__pycache__/
+*.pyc
