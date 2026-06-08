@@ -1,0 +1,13 @@
+{
+  "name": "telegram-task-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telegram task deadline bot",
+  "main": "run-node.js",
+  "scripts": {
+    "start": "node run-node.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
