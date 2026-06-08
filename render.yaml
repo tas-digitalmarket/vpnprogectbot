@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: telegram-task-bot
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: ADMIN_USER_IDS
+        sync: false
+      - key: WEBHOOK_PATH
+        value: /webhook
+      - key: REMINDER_MINUTES
+        value: 1440,180,30,0
